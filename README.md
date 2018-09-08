@@ -1,8 +1,17 @@
 # Python-Spam-Ham-SMS
-The code contains step by step process to classify a set of over 5,000 SMS using python in both Logistic Regression and Naive Bayes Classification Algorithms.
+The code contains step by step process to classify a set of over 5,000 SMS using python in Naive Bayes Classification Algorithm.
 
-# To Run
+## To Run
 python spam.py
 
-# Data
+## Data
 Data folder containes the spam-ham.csv file with data.
+
+## ROC Curve for current Data
+
+
+
+## Prerequisits
+Python 2.7
+Machine learning libraries
+Anaconda/Spyder
