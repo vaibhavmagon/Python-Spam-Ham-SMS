@@ -21,4 +21,5 @@ Apart from this it contains a split of 2 different files to train on test data a
 - Machine learning libraries
 - Anaconda/Spyder
 
-## - V
+## Contributers
+- V
