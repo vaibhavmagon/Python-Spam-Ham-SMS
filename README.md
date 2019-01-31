@@ -1,4 +1,4 @@
-# Python-Spam-Ham-SMS
+# Python Spam Ham SMS Bifurcation
 The code contains step by step process to classify a set of over 5,000 SMS using python in Naive Bayes Classification Algorithm.
 
 ## To Run
@@ -12,12 +12,13 @@ Apart from this it contains a split of 2 different files to train on test data a
 <br/> 2. spam-real.py (to run in production)
 
 ## ROC Curve for current Data
+
 <img width="628" alt="screen shot 2018-09-08 at 11 59 27 am" src="https://user-images.githubusercontent.com/5276190/45251161-23483580-b35f-11e8-96ee-38fe479dab1b.png">
 
 
 ## Prerequisits
-Python 2.7
-Machine learning libraries
-Anaconda/Spyder
+- Python 2.7
+- Machine learning libraries
+- Anaconda/Spyder
 
-- V
+## V
