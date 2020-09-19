@@ -1,4 +1,7 @@
-# Python Spam Ham SMS Bifurcation
+# Python Spam Ham SMS Bifurcation Script
+
+<img src="https://img.shields.io/static/v1?label=Python&message=2.7&color=<COLOR>"> <img src="https://img.shields.io/static/v1?label=Build&message=Passing&color=<COLOR>">
+
 The code contains step by step process to classify a set of over 5,000 SMS using python in Naive Bayes Classification Algorithm.
 
 ## To Run
@@ -21,5 +24,6 @@ Apart from this it contains a split of 2 different files to train on test data a
 - Machine learning libraries
 - Anaconda/Spyder
 
+
 ## Contributers
-- V
+- Vaibhav Magon
