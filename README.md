@@ -2,10 +2,14 @@
 
 <img src="https://img.shields.io/static/v1?label=Python&message=2.7&color=<COLOR>"> <img src="https://img.shields.io/static/v1?label=Build&message=Passing&color=<COLOR>">
 
-The code contains step by step process to classify a set of over 5,000 SMS using python in Naive Bayes Classification Algorithm.
+The code contains step by step process to classify a set of over 5,000 SMS using python in **Naive Bayes Classification** Algorithm.
+
+More on Naive Bayes: https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/
 
 ## To Run
+```console
 python spam.py
+```
 
 ## Data
 Data folder containes the spam-ham.csv file with data.
