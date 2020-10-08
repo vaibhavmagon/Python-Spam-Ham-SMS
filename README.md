@@ -31,3 +31,8 @@ Apart from this it contains a split of 2 different files to train on test data a
 
 ## Contributers
 - Vaibhav Magon
+
+
+## Support
+
+[![Buy Me Chai](https://i.ibb.co/Xkdj83y/image-2.png)](https://buymechai.ml/link.html?vpa=vaibhav210991@okaxis&nm=Vaibhav&amt=10)
