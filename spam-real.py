@@ -15,15 +15,16 @@ messages_real = pd.read_csv('data/spam-real.csv', names=['sms'])
 
 test_data = messages_real.iloc[:, 0]
 
-messages['label'] = messages.label.map({'ham':0, 'spam':1}) #Making spam/ham as 0/1 instead
+messages['label'] = messages.label.map({'ham': 0, 'spam': 1})  # Making spam/ham as 0/1 instead
 
 y_train = pd.Series(messages['label'])
+
 
 # Cleaning the data
 def dataCleanFunc(data):
     corpus = []
-    for i in range(0,len(data)):
-        smsDocument = re.sub('[^a-zA-Z]',' ',data[i])
+    for i in range(0, len(data)):
+        smsDocument = re.sub('[^a-zA-Z]', ' ', data[i])
         smsDocument = smsDocument.lower()
         smsDocument = smsDocument.split()
         ps = PorterStemmer()
@@ -32,16 +33,18 @@ def dataCleanFunc(data):
         corpus.append(smsDocument)
     return corpus
 
+
 training_data = dataCleanFunc(messages['sms'])
+
 training_data = pd.Series(training_data)
 
-count_vector = CountVectorizer(max_features = 1500) #Making document term matrix / frequency matrix
+count_vector = CountVectorizer(max_features=1500)  # Making document term matrix / frequency matrix
 
 training_data = count_vector.fit_transform(training_data)
 
 testing_data = count_vector.transform(test_data)
 
-#Multinomail distribution (naive bayes classification) works better in case of counts.
+# Multinomail distribution (naive bayes classification) works better in case of counts.
 model = MultinomialNB()
 
 model.fit(training_data, y_train)
