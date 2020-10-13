@@ -112,7 +112,6 @@ acc_nn = accuracy_score(y_test, y_pred)
 
 print('Accuracy Score NN: ', acc_nn)
 
-
 '''
 fpr, tpr, _ = metrics.roc_curve(y_test,  y_score)
 
